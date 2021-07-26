@@ -261,6 +261,10 @@ html,body {
       /* top container */
       .mountain {
           width: 85%;
+      } 
+      
+       .bottom-cloud {
+          padding: 10px 20px 30px 20px;
       }
   /* MIDDLE CONTAINER*/
       .profile {
