@@ -4,6 +4,7 @@ html,body {
     font-family: 'Merriweather', serif;
     color: #40514e;
     overflow-x: hidden;
+    padding: 0px;
   
   }
   
@@ -22,7 +23,6 @@ html,body {
       text-align: center;
   }
   
-  
   nav {
       width: 100%;
       margin: 0;
@@ -35,7 +35,6 @@ html,body {
       overflow: hidden;
       margin: 0;
       padding: 0;
-      
   }
   
   ul.topnav li {
@@ -50,7 +49,7 @@ html,body {
       padding: 14px;
       text-transform: uppercase;
       text-align: center;
-      color: #666;
+      color: black;
   }
   
   ul.topnav li a:hover {
@@ -109,6 +108,7 @@ html,body {
       font-weight: 400px;
       /* margin: 10px 15px; */
       text-decoration: none;
+      
   }
   
   a:hover {
@@ -224,9 +224,86 @@ html,body {
       background-image: linear-gradient(to bottom #30e3cb, #2bc4ab);
       text-decoration: none;
   }
+
+  /* project container */
+  .portfolio-items-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.row-3 {
+    position: relative;
+}
+
+.portfolio-img-background {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 0px 0px 0px 10px;
+    height: 300px;
+    margin-left: 20px;
+    margin-top: 40px;
+    width: 90%;
+}
+
+.img-text-wrapper {
+    position: absolute;
+    top: 0;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px; 
+} 
+
+.logo-wrapper img {
+    width: 50%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    padding-bottom: 0px;
+}
+
+.img-text-wrapper .subtitle {
+    transition: 0.5s;
+    color: transparent;
+    font-weight: 600;
+}
+
+.image-darken {
+    transition: 0.5s;
+    filter:brightness(30%);
+}
+.img-text-wrapper:hover .subtitle {
+    font-weight: 600;
+    color: lightseagreen;
+}
+
+.two-column-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.profile-image-wrapper img {
+    width: 100%;
+  }
+  
+  .profile-content-wrapper {
+    padding: 30px;
+  }
+  
+  .profile-content-wrapper h1 {
+    color: lightseagreen;
+  }
+
+  .portfolio-items-wrapper a {
+      display: inline-block;
+  }
   
   
-  @media only screen and (max-width: 680px) {
+  @media only screen and (max-width: 850px) {
       /* mobile view */
   
        ul.topnav li:not(:nth-child(0)) {
@@ -261,16 +338,12 @@ html,body {
       /* top container */
       .mountain {
           width: 85%;
-      } 
-      
-       .bottom-cloud {
-          visibility: hidden;
       }
   /* MIDDLE CONTAINER*/
       .profile {
           text-align: center;
           width: 73%;
-          margin-left: 49px;
+          margin-left: 70px;
       }
   
       p.intro {
@@ -301,6 +374,17 @@ html,body {
           float: none;
           margin-right: 40px;
       }
+      
+      .portfolio-items-wrapper {
+        display:flex;
+        flex-direction: column;
+      }
+
+      .content-wrapper {
+          margin-left: 40px;
+      }
+
+
      
   }
    /* TABLET VIEW */
@@ -328,6 +412,19 @@ html,body {
           float: none;
           margin-right: 40px;
       }
+
+      .content-wrapper {
+          margin-right: 20px;
+      }
+
+      .img-text-wrapper.subtitle {
+        font-size: 13px;
+        margin: 0px;
+        padding: 0px;
+        text-align: center;
+        display: block;
+      }
+
   }
     
   
@@ -348,6 +445,8 @@ html,body {
   .footer-link {
       padding: 10px;
   }
+
+
   
   
   
