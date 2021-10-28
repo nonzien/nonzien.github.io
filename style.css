@@ -348,10 +348,12 @@ html,body {
   
       p.intro {
           width: 100%;
+          margin-right: 30px;
       }
   
       .pro-image {
           width: 70%;
+          margin-right: 60px;
       }
       .skill-row {
           text-align: center;
