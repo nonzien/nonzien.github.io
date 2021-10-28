@@ -341,15 +341,14 @@ html,body {
       }
   /* MIDDLE CONTAINER*/
       .profile {
-          text-align: center;
+          
           width: 73%;
-           margin-left: 70px; 
+            
       }
   
       p.intro {
           width: 100%;
-          margin-left: 50px; 
-            
+          margin-left: 50px;     
       }
   
       .pro-image {
