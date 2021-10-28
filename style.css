@@ -348,11 +348,12 @@ html,body {
   
       p.intro {
           width: 100%;
-          font-color: red;     
+               
       }
   
       .pro-image {
           width: 70%;
+          margin-right: 30px;
             
       }
       .skill-row {
