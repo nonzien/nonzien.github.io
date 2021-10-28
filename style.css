@@ -343,11 +343,14 @@ html,body {
       .profile {
           
           width: 73%;
+          text-align: center;
+          margin-left: 70px;
             
       }
   
       p.intro {
           width: 100%;
+          
                
       }
   
