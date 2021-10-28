@@ -343,17 +343,17 @@ html,body {
       .profile {
           text-align: center;
           width: 73%;
-          margin-left: 70px;
+          margin-left: 50px;
       }
   
       p.intro {
           width: 100%;
-          margin-right: 30px;
+        
       }
   
       .pro-image {
           width: 70%;
-          margin-right: 60px;
+         
       }
       .skill-row {
           text-align: center;
