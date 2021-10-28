@@ -348,7 +348,7 @@ html,body {
   
       p.intro {
           width: 100%;
-          margin-left: 50px;     
+          font-color: red;     
       }
   
       .pro-image {
