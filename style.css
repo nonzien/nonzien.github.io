@@ -303,7 +303,7 @@ html,body {
   }
   
   
-  @media only screen and (max-width: 950px) {
+  @media only screen and (max-width: 681px) {
       /* mobile view */
   
        ul.topnav li:not(:nth-child(0)) {
@@ -348,12 +348,12 @@ html,body {
   
       p.intro {
           width: 100%;
-           margin-right: 60px;
+           margin-right: 65px;
       }
   
       .pro-image {
           width: 70%;
-          margin-right: 60px;
+          margin-right: 65px;
       }
       .skill-row {
           text-align: center;
@@ -383,7 +383,7 @@ html,body {
       }
 
       .content-wrapper {
-          margin-left: 40px;
+          margin-left: 20px;
       }
 
 
